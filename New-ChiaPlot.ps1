@@ -6,7 +6,7 @@ param (
 	[Timespan] $Stagger = 60s
 )
 
-Write-Warning "This script sucks.
+Write-Warning "This script sucks."
 #It assumes a lot of things that probably arent true
 
 #It assumes:
