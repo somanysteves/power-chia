@@ -9,6 +9,10 @@ try {
 
 	# Checkout the source and install
 	git clone https://github.com/Chia-Network/chia-blockchain.git -b latest --recurse-submodules
+
+	cd chia-blockchain
+
+	sh install.sh
 }
 finally {
 	popd
